@@ -1,0 +1,32 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.dingdawg/dingdawg-marketing-agent",
+  "description": "AI content generation, SEO audits, campaign planning & social scheduling.",
+  "repository": {
+    "url": "https://github.com/dingdawg/dingdawg-agent-1",
+    "source": "github"
+  },
+  "version": "2.0.6",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "dingdawg-marketing-agent",
+      "version": "2.0.6",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "DINGDAWG_API_KEY",
+          "description": "API key for paid tier access \u2014 get free at dingdawg.com",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string"
+        }
+      ]
+    }
+  ],
+  "maintainers": [
+    "jr33377"
+  ]
+}
